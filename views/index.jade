@@ -1,0 +1,56 @@
+.main 
+    .wrapper
+        .row            
+            .col-md-7
+                #left
+                    ul#colors
+                        li
+                            #red(style='background-color: #FF6347')
+                        li
+                            #green(style='background-color: #2E8B57')
+                        li
+                            #blue(style='background-color: #4682B4')
+                        li
+                            #yellow(style='background-color: #FFD700')
+                        li
+                            #pupple(style='background-color: #B452CD')
+                        li
+                            #pink(style='background-color: #FF1493')
+                        li
+                            #brow(style='background-color: #A0522D')
+                        li
+                            #black(style='background-color: #000')
+                        li
+                            #white(style='background-color: #FFF')
+                        li
+                            #orange(style='background-color: #FFA500')
+                        li
+                            #nude(style='background-color: #FFDAB9')
+                        li
+                            #gray(style='background-color: #CCC')
+                        li
+                        li
+                        li
+                            #select(style='background-color: #000')
+                #rigth
+                    #draw
+                        canvas#canvas(height='500', width='705')
+                    #hidden
+                        form#send-answer(action='#')
+                            .form-group
+                                input#again.form-control(type='text', placeholder='Dê sua resposta')
+                            button.btn.btn-primary(type='submit') Responder
+                    #hiddenshaman
+                        form#cancel(action='#')
+                            button.btn.btn-primary(type='submit') Desistir
+            .col-md-4
+                form#go-game.text-center(action='#')
+                    button.btn.btn-primary(type='submit') Quero jogar logo!
+                    
+                h4 Quem está jogando?
+                #list-users
+                    ul#users
+
+                h4 O que aconteceu?
+                #list-events
+                    ul#events

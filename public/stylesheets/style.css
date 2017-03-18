@@ -1,0 +1,72 @@
+* {
+    border-radius: 0px !important;
+    overflow-x: hidden !important;
+}
+
+body, html {
+    height: 100%;
+    background-color: #1C1C1C !important;
+    font: 14px  Helvetica, Arial, sans-serif;
+    color: #E8E8E8 !important;
+}
+.main {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+.wrapper {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#draw {
+    border: 5px solid rgba(0,0,0,.5);
+    height: 500px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+#users li, #events li{
+    margin-left: -37px;
+    border-bottom: 1px solid rgba(0,0,0,.5);
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    list-style: none;
+}
+
+#canvas {
+    background-color: #CCC;
+}
+
+
+#list-events, #list-users {
+    border: 5px solid rgba(0,0,0,.5);
+    width: 100%;
+    max-height: 180px;
+    min-height: 180px;
+    overflow: auto;
+}
+
+#colors {
+    list-style:  none;
+}
+
+#colors li{
+    width: 30px;
+    height: 30px;
+}
+
+#colors li div{
+    border: 5px solid rgba(0,0,0,.5);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+#left { float: left; }
+#rigth { float: rigth; }
